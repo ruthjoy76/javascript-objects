@@ -71,3 +71,21 @@ In JavaScript, almost "everything" is an object.
 - Objects are always objects
 
   ex. `delete animal.bark`
+
+### Summary
+  -Objects are associative arrays with several features.
+  -They allow us to store properties (key-value pairs)where:
+
+    1. Property keys must be strings or symbols (ususally strings)
+    2. Values can be of any type
+   
+   -To access a property, we can use:
+
+    1. The dot notation:object property
+    2. Square brackets notation: obj["property"]
+   
+   -Additional operators
+   
+    1. To delete a property:delete obj.property
+    2. To check if a property with the given key exists; "key" in obj
+    3. To iterate over an object: (let key in obj) loop.
